@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    height:100%;
+    width: 100%;
+}
+
+/*Student and Admin loginpage*/
+.admin, .student{
+    max-width: 40em;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+
+.admin{
+   background: url("tutor.jpg") no-repeat;
+   background-size: cover;
+}
+
+.student{
+    background-image:linear-gradient(rgb(74, 165, 218, 0.1), rgb(74, 165, 218)), url(student.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    margin-top: 1em;
+    width: 6em;
+}
+
+.stdtLogin{
+    color: rgb(105,5,10);
+    font-weight: bolder;
+}
+
+span a{
+    color:rgb(129, 24, 29);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 1em;
+}
+a:hover, .checkbox a:hover{
+    color: rgb(37,99,51);
+}
+
+span{
+    margin-top: 1em;
+}
+
+h1,span{
+    color: white;
+    margin-top: 20px;
+}
+
+.adminBtn{
+    background-color: rgb(170, 167, 167);
+    margin-bottom: 2em;
+}
+
+input[type=text],input[type=password]{
+    padding-left: 40px;
+    border: none;
+    border-bottom: 2px solid rgb(129, 24, 29);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    height: 3em;
+    margin-top: 1em;
+    
+}
+input[type=text]{
+    background-image: url('user2.png');
+    background-size: 30px;
+}
+
+input[type=password]{
+    background-image: url('lock.png');
+    background-size: 25px;
+    margin: 3em 0 2em 0;
+}
+
+.checkbox{
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox a {
+    text-decoration: none;
+    color: rgb(129, 24, 29);
+    font-weight: 700;
+}
+
+.btn{
+    border: none;
+    color: white;
+    padding: 1em 4em;
+    border-radius: 50px;
+}
+
+.studentBtn{
+    background-color:rgb(37,99,51) ;
+    margin-bottom: 2em;
+}
+
+.homepage{
+    background-image:linear-gradient(rgba(37,99,51, 0.1), rgb(37,99,51)), url(homepage.webp);
+    line-height: 40em;
+    height: 40em; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome{
+    color: rgb(129, 24, 29);
+    margin: 0;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 6em;
+   font-weight: bolder;
+}

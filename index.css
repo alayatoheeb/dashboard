@@ -1,0 +1,27 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(class.jpg);
+    background-position: center;
+}
+h1 {
+color: red;
+text-align: center;
+}
+form {
+    margin: auto;
+    text-align: center;
+} 
+.btn{
+    border: none;
+    color: red;
+    padding: 1em 4em;
+    border-radius: 50px;
+}
+h2 {
+    text-align: center;
+    color: black;
+}
+h3 {
+    color:black;
+}
